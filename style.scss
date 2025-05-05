@@ -74,11 +74,11 @@ body{
     display: flex;
     align-items: center;
     gap: 51px;
-    //overflow: hidden;
-    animation: move 10s linear infinite;
+    overflow: hidden;
+    animation: scroll 10s linear infinite;
 
-    @keyframes move {
-        from { transform: translateX(0); }
+    @keyframes scroll {
+        from { transform: translateX(70%); }
         to { transform: translateX(-100%); }
     }
     
@@ -234,6 +234,7 @@ body{
     justify-content: space-between;
     gap: 48px;
     margin-bottom: 32px;
+
 
     &__text-box{
         max-width: 500px;

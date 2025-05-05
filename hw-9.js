@@ -76,7 +76,7 @@ function number() {
 
 console.log(number());
 
-Задание 7
+// Задание 7
 
 function getRectangleArea() {
     return Math.PI * this.radius  ** 2;
