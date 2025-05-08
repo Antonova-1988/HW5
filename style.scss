@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body{
     font-family: "Montserrat", serif;
     font-optical-sizing: auto;
@@ -78,19 +82,20 @@ body{
     animation: scroll 10s linear infinite;
 
     @keyframes scroll {
-        from { transform: translateX(70%); }
+        from { transform: translateX(100%); }
         to { transform: translateX(-100%); }
     }
-    
+
     &__text{
         font-weight: 700;
         font-size: 30px;
         line-height: 110%;
         color: rgba(32, 32, 39, 1);
+        display: inline-block;
         white-space: nowrap;
-
     }
 }
+
 
 .about{
     background-color:rgba(32, 32, 39, 1);

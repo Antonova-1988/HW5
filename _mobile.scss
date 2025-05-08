@@ -38,6 +38,21 @@
         }
     }
 
+    .animation{
+        height: 51px;
+        gap: 27px;
+
+        &__img{
+            width: 19px;
+            height: 19px;
+        }
+
+        &__text{
+            font-size: 16px;
+            line-height: 110%;
+        }
+    }
+
     .about{
         display: none;
     }
@@ -54,12 +69,14 @@
         &__text{
             height: 49px;
             font-size: 40px;
+            margin-left: 16px;
         }
     }
 
     .game{
         gap: 24px;
         margin-right: 16px;
+        margin-left: 16px;
         
         &__right{
             display: flex;
