@@ -74,9 +74,8 @@
     }
 
     .game{
+        height: 568px;
         gap: 24px;
-        margin-right: 16px;
-        margin-left: 16px;
         
         &__right{
             display: flex;
@@ -91,6 +90,7 @@
         }
 
         &__text-box{
+        
             &_left{
                 padding-top: 0px;
                 padding-left: 29px;

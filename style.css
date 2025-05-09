@@ -180,6 +180,7 @@ body {
   border-radius: 53px;
   width: 111px;
   padding: 8px 16px 10px 16px;
+  display: block;
 }
 .about-box-card__name {
   width: 314px;
@@ -207,6 +208,7 @@ body {
 }
 
 .game {
+  height: 500px;
   background-color: rgb(255, 255, 255);
   border-radius: 30px;
   display: flex;
@@ -257,7 +259,7 @@ body {
 }
 .game__img {
   border-radius: 30px;
-  height: 500px;
+  height: 100%;
 }
 
 .footer {
@@ -335,9 +337,8 @@ body {
     margin-left: 16px;
   }
   .game {
+    height: 568px;
     gap: 24px;
-    margin-right: 16px;
-    margin-left: 16px;
   }
   .game__right {
     display: flex;
