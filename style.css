@@ -337,7 +337,7 @@ body {
     margin-left: 16px;
   }
   .game {
-    height: 568px;
+    height: 100%;
     gap: 24px;
   }
   .game__right {
@@ -372,7 +372,6 @@ body {
     font-size: 16px;
   }
   .game__img {
-    height: 100%;
     width: 100%;
   }
   .footer {

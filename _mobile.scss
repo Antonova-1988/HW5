@@ -74,7 +74,7 @@
     }
 
     .game{
-        height: 568px;
+        height: 100%;
         gap: 24px;
         
         &__right{
@@ -122,7 +122,6 @@
         }
 
         &__img{
-            height: 100%;
             width: 100%;
         }
     }
