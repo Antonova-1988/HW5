@@ -71,9 +71,14 @@ body {
   background-color: rgb(188, 236, 48);
   display: flex;
   align-items: center;
-  gap: 51px;
   overflow: hidden;
-  animation: scroll 10s linear infinite;
+}
+.animation__run {
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 51px;
+  animation: scroll 15s linear infinite;
 }
 @keyframes scroll {
   from {
@@ -161,6 +166,7 @@ body {
 }
 .about-box-card__img {
   border-radius: 30px;
+  width: 100%;
 }
 .about-box-card__text {
   background-color: #fff;
@@ -310,6 +316,8 @@ body {
   }
   .animation {
     height: 51px;
+  }
+  .animation__run {
     gap: 27px;
   }
   .animation__img {

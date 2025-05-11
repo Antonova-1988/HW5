@@ -40,7 +40,11 @@
 
     .animation{
         height: 51px;
-        gap: 27px;
+        
+
+        &__run{
+            gap: 27px;
+        }
 
         &__img{
             width: 19px;

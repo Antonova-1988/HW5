@@ -77,22 +77,28 @@ body{
     background-color: rgba(188, 236, 48, 1);
     display: flex;
     align-items: center;
-    gap: 51px;
     overflow: hidden;
-    animation: scroll 10s linear infinite;
+    
+    &__run{
+        white-space: nowrap; 
+        display: flex;
+        align-items: center;
+        gap: 51px;
+        animation: scroll 15s linear infinite;
 
-    @keyframes scroll {
-        from { transform: translateX(100%); }
-        to { transform: translateX(-100%); }
+        @keyframes scroll {
+            from { transform: translateX(100%); }
+            to { transform: translateX(-100%); }
+        }
     }
-
+    
     &__text{
         font-weight: 700;
         font-size: 30px;
         line-height: 110%;
         color: rgba(32, 32, 39, 1);
         display: inline-block;
-        white-space: nowrap;
+        white-space: nowrap;   
     }
 }
 
@@ -178,6 +184,7 @@ body{
 
     &__img{
         border-radius: 30px;
+        width: 100%;
     }
 
     &__text{
